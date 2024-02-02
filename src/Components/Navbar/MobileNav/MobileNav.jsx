@@ -1,18 +1,13 @@
-import React, { useState } from "react";
-import "./Navbar.css";
-import MobileNav from "./MobileNav/MobileNav";
+import React from 'react'
+import './MobileNav.css'
 
-const Component = () => {
-  const [openMenu,setOpenMenu] = useState(false)
-   const toggleMenu = ()=>{
-    setOpenMenu(!openMenu);
-   }
+const MobileNav = ({isOpen,toggleMenu}) => {
   return (
-    <>
-    <MobileNav isOpen ={openMenu} toggleMenu = {toggleMenu}/>
-      <nav className="nav-wrapper">
-        <div className="nav-content">
-          <div className="logo">
+    <> <div
+         className={`mobile-menu ${isOpen ?"active":""}`}
+         onClick={toggleMenu}>
+       <div className="mobile-menu-container">
+       < div className="logo">
             <lord-icon
               src="https://cdn.lordicon.com/lhwyshcs.json"
               trigger="loop"
@@ -44,21 +39,13 @@ const Component = () => {
             <button className="contact-btn" onClick={() => {}}>
               Hire Me
             </button>
-          </ul>
+          </ul> 
+       </div>
 
-          <button className="menu-btn" onClick={toggleMenu}>
-            <span><lord-icon
-              src="https://cdn.lordicon.com/nmguxqka.json"
-              trigger="loop"
-              delay="2000"
-            ></lord-icon>
-            </span>
-
-          </button>
-        </div>
-      </nav>
+         </div>
+    
     </>
-  );
-};
+  )
+}
 
-export default Component;
+export default MobileNav
