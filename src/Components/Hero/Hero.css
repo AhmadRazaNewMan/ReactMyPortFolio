@@ -88,7 +88,7 @@
 
     }
     .tech-icon img{
-        border: 4px solid white;
+        /* border: 4px solid white; */
         width: 20rem;
         height: 20rem;
     }
@@ -127,32 +127,32 @@
     .hero-content h2{
         font-size: 2.2rem;
         line-height: 3rem;
-        border:  2px solid white;
+        /* border:  2px solid white; */
 
 
     }
     .hero-content p{
         font-size: 0.8rem;
         line-height: 1.3rem;
-        border:  2px solid white;
+        /* border:  2px solid white; */
 
 
     }
     .hero-img{
         gap: 1rem;
-        border:  2px solid white;
+        /* border:  2px solid white; */
 
 
     }
     .tech-icon img  {
         gap: 1rem;
-        border:  5px solid white;
+        /* border:  5px solid white; */
         margin-left: 0.9rem;
 
     }
     .hero-img > div>img{
         width: 16rem;
-        border:  2px solid white;
+        /* border:  2px solid white; */
 
     }
     
