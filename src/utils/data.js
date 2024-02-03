@@ -72,4 +72,37 @@ export const SKILLS = [
         
     }
 ]
-export default  SKILLS;  
+
+ export const WORK_EXPERIENCE = [
+    {
+      title: "Software Developer",
+      date: "January 2022 - Present",
+      responsibilities: [
+        "Developed and maintained web applications.",
+        "Collaborated with cross-functional teams to deliver high-quality software.",
+        "Participated in code reviews and provided constructive feedback.",
+      ],
+    },
+    {
+      title: "Junior Frontend Developer",
+      date: "June 2021 - December 2021",
+      responsibilities: [
+        "Implemented responsive designs using HTML, CSS, and JavaScript.",
+        "Assisted in debugging and troubleshooting issues.",
+        "Contributed to the optimization of web application performance.",
+      ],
+    },
+    {
+      title: "Intern, IT Support",
+      date: "January 2021 - May 2021",
+      responsibilities: [
+        "Provided technical support to end-users.",
+        "Assisted in hardware and software troubleshooting.",
+        "Documented and maintained IT inventory.",
+      ],
+    },
+    // Add more experiences as needed
+  ];
+
+
+ 
